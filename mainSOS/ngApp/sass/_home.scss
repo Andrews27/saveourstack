@@ -1,0 +1,51 @@
+.liste:hover .text{
+  font-size: 2em;
+  position: relative;
+  text-decoration: none;
+}
+
+.liste{
+  display: inline-flex;
+  padding: 10px 5px;;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  float: none;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.image {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+
+}
+.text {
+  z-index: 100;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  top: -200px;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 1.25em;
+}
+
+.homeUL{
+  text-align: center;
+  padding: 0;
+}
+
+.idLink{
+  text-decoration: none;
+  color: black;
+}
+
+#trashcan{
+  float: right;
+}
